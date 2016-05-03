@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace UniSoft
 {
-    class Teacher
-    {
+    class Teacher {
+        private String name;
+
+    
     }
 }
