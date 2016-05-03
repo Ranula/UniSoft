@@ -8,7 +8,5 @@ namespace UniSoft
 {
     class Teacher {
         private String name;
-
-    
     }
 }
