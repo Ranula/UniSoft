@@ -14,9 +14,14 @@ namespace UniSoft
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //Application.EnableVisualStyles();
+            //Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new Form1());
+            
+        
+            /* my first program in C# */
+            Console.WriteLine("Hello World");
+        
         }
     }
 }
