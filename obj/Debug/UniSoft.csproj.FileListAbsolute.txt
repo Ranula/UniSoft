@@ -6,3 +6,11 @@ C:\Users\User\Documents\visual studio 2013\Projects\UniSoft\obj\Debug\UniSoft.Pr
 C:\Users\User\Documents\visual studio 2013\Projects\UniSoft\obj\Debug\UniSoft.csproj.GenerateResource.Cache
 C:\Users\User\Documents\visual studio 2013\Projects\UniSoft\obj\Debug\UniSoft.exe
 C:\Users\User\Documents\visual studio 2013\Projects\UniSoft\obj\Debug\UniSoft.pdb
+C:\Users\Nadeeshan\Desktop\New folder\UniSoft\bin\Debug\UniSoft.exe.config
+C:\Users\Nadeeshan\Desktop\New folder\UniSoft\bin\Debug\UniSoft.exe
+C:\Users\Nadeeshan\Desktop\New folder\UniSoft\bin\Debug\UniSoft.pdb
+C:\Users\Nadeeshan\Desktop\New folder\UniSoft\obj\Debug\UniSoft.csprojResolveAssemblyReference.cache
+C:\Users\Nadeeshan\Desktop\New folder\UniSoft\obj\Debug\UniSoft.Properties.Resources.resources
+C:\Users\Nadeeshan\Desktop\New folder\UniSoft\obj\Debug\UniSoft.csproj.GenerateResource.Cache
+C:\Users\Nadeeshan\Desktop\New folder\UniSoft\obj\Debug\UniSoft.exe
+C:\Users\Nadeeshan\Desktop\New folder\UniSoft\obj\Debug\UniSoft.pdb
