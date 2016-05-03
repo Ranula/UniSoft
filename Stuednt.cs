@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace WindowsFormsApplication3
 {
     class student
+    //u fuckers
     {
         private string name;
         private string age;
