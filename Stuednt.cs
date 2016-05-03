@@ -49,12 +49,5 @@ namespace WindowsFormsApplication3
             return gender;
         }
 
-        private char makeId()
-        {
-
-            return id;
-        }
-
-
     }
 }
