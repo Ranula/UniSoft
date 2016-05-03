@@ -9,11 +9,11 @@ namespace UniSoft
     abstract class Person
     { 
     // variables
-        private string name;
-        private string gender;
-        private int age;
-        private string address;
-        private DateTime dateOfAddmission;
+        protected string name;
+        protected string gender;
+        protected int age;
+        protected string address;
+        protected DateTime dateOfAddmission;
 
     // constroctor
         public Person(string name,string gender,int age,string address,DateTime dateOfAddmission)
