@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace UniSoft
 {
-    class StaffMember: Person
+    class StaffMember : Person
 
     {
         private float salary;
 
-// constrotor
-        public StaffMember(string name,string gender,int age,string address,DateTime dateOfAddmission):base(name,gender,age,address,dateOfAddmission)
+        // constrotor
+        public StaffMember(string name, string gender, int age, string address, DateTime dateOfAddmission) : base(name, gender, age, address, dateOfAddmission)
         { }
 
         public void setSalary(float salary) { this.salary = salary; }
