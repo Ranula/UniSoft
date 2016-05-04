@@ -8,24 +8,19 @@ using UniSoft;
 
 namespace UniSoft
 {
-    class Parent
+    class Parent : Person
     {
-        private String name;
-        private student[] students;
-        private string adress;
+        private Student[] children;
 
-        public String getName()
-        {
-            return this.name;
-        }
-        private string getAdress()
-        {
-            return adress;
-        }
+       public Parent(string name,string gender,int age,string address): base(name,gender,age,address)
+        { }
+
+       
+        
 
         public void getMarks(student child)
         { //cheak the avalability of the studeen
-            foreach (student student in students)
+            foreach (Student student in children)
             {
                 if (student == chid)
                 {

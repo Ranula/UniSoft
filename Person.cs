@@ -15,7 +15,7 @@ namespace UniSoft
         protected string address;
         protected DateTime dateOfAddmission;
 
-    // constroctor
+ // constroctor
         public Person(string name,string gender,int age,string address,DateTime dateOfAddmission)
         {
             this.name = name;
@@ -25,7 +25,16 @@ namespace UniSoft
             this.dateOfAddmission = dateOfAddmission;
 
         }
-   // setters
+ //second comstroctor 
+        public Person(string name, string gender, int age, string address)
+        {
+            this.name = name;
+            this.gender = gender;
+            this.age = age;
+            this.address = address;
+
+        }
+ // setters
         public string getName()
         {
             return name;
