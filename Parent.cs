@@ -10,7 +10,7 @@ namespace UniSoft
 {
     class Parent : Person
     {
-        private Student[] children;
+        private Student[] children;//
 
        public Parent(string name,string gender,int age,string address): base(name,gender,age,address)
         { }
