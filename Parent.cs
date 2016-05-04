@@ -11,7 +11,7 @@ namespace UniSoft
     class Parent
     {
         private String name;
-        private student[] students;
+        private Student[] students;
         private string adress;
 
         public String getName()
@@ -23,11 +23,11 @@ namespace UniSoft
             return adress;
         }
 
-        public void getMarks(student child)
+        public void getMarks(Student child)
         { //cheak the avalability of the studeen
-            foreach (student student in students)
+            foreach (Student student in students)
             {
-                if (student == chid)
+                if (student == child)
                 {
 
                 }
