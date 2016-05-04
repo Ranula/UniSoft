@@ -32,7 +32,7 @@ namespace UniSoft
 
                 }
                 else
-                {
+                {   
                     Console.WriteLine("No such a student for the parent");
                 }
             }
