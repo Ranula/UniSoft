@@ -15,3 +15,4 @@ C:\Users\Nadeeshan\Desktop\New folder\UniSoft\obj\Debug\UniSoft.csproj.GenerateR
 C:\Users\Nadeeshan\Desktop\New folder\UniSoft\obj\Debug\UniSoft.exe
 C:\Users\Nadeeshan\Desktop\New folder\UniSoft\obj\Debug\UniSoft.pdb
 C:\Users\User\Source\Repos\UniSoft\bin\Debug\UniSoft.exe.config
+C:\Users\Nadeeshan\Desktop\uniS\bin\Debug\UniSoft.exe.config
