@@ -16,3 +16,4 @@ C:\Users\Nadeeshan\Desktop\New folder\UniSoft\obj\Debug\UniSoft.exe
 C:\Users\Nadeeshan\Desktop\New folder\UniSoft\obj\Debug\UniSoft.pdb
 C:\Users\User\Source\Repos\UniSoft\bin\Debug\UniSoft.exe.config
 C:\Users\user\Source\Repos\UniSoft3\bin\Debug\UniSoft.exe.config
+C:\Users\Nadeeshan\Desktop\UniSoft(7)\UniSoft\bin\Debug\UniSoft.exe.config
