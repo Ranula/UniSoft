@@ -8,26 +8,31 @@ using UniSoft;
 
 namespace UniSoft
 {
-    class Parent : Person
+    class Parent
     {
-        private Student[] children;
+        private String name;
+        private Student[] students;
+        private string adress;
 
-       public Parent(string name,string gender,int age,string address): base(name,gender,age,address)
-        { }
+        public String getName()
+        {
+            return this.name;
+        }
+        private string getAdress()
+        {
+            return adress;
+        }
 
-       
-        
-
-        public void getMarks(student child)
+        public void getMarks(Student child)
         { //cheak the avalability of the studeen
-            foreach (Student student in children)
+            foreach (Student student in students)
             {
-                if (student == chid)
+                if (student == child)
                 {
 
                 }
                 else
-                {
+                {   
                     Console.WriteLine("No such a student for the parent");
                 }
             }
@@ -36,5 +41,4 @@ namespace UniSoft
     }
 
 
-}
 }

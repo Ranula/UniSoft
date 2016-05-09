@@ -6,25 +6,37 @@ using System.Threading.Tasks;
 
 namespace UniSoft
 {
-    // inherit from the super class
     class Student : Person
- 
+
+    //
     {
-        private Parent parent;
-        private int ID;
-        // constroctor     
+        private char id;
+        private Parent p;
+
+
+
+        //constuctor to add accept name and the age when creating the object
+
         public Student(string name, string gender, int age, string address, DateTime dateOfAddmission) : base(name, gender, age, address, dateOfAddmission)
         {
+
+        }
+        // getters
+
+        public int getId()
+        {
+            return id;
         }
 
-        public void setParent(Parent parent) {this.parent = parent;}
+        public Parent getParent()
+        {
+            return p;
+        }
 
-        public void setId(int id) { this.ID = id; }
+        public void setParent(Parent parent)
+        {
 
-        public Parent getParent() { return parent; }
-
-        public int getId() { return ID; }
-        
+        }
 
     }
 }

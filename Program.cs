@@ -20,8 +20,14 @@ namespace UniSoft
             
         
             /* my first program in C# */
-            Console.WriteLine("Hello World");
-        
+            //Console.WriteLine("Hello World");
+            //Form1 form = new Form1();
+           /// form.Show();
+
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new AddParent());
+
         }
     }
 }
