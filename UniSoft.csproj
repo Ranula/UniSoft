@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassHall.cs" />
     <Compile Include="Error.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +64,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TuitionClass.cs" />
     <EmbeddedResource Include="Error.resx">
       <DependentUpon>Error.cs</DependentUpon>
     </EmbeddedResource>

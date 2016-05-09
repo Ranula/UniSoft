@@ -32,59 +32,48 @@ namespace UniSoft
         {
 
         }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
-            try { 
+            
                 int parentId = Int32.Parse(textBox1.Text);
                 String address = textBox2.Text;
                 int gender = Int32.Parse(textBox3.Text);
                 String telephoneNumber = textBox3.Text;
-           catch (Exception ex)
-            {
-                this.Enabled(false);
-                Application.EnableVisualStyles();
-                Application.SetCompatibleTextRenderingDefault(false);
-                Application.Run(new Error());
-            }
-             
+
+
             MySqlConnectionStringBuilder builder = new MySqlConnectionStringBuilder();
             builder.Server = "localhost";
             builder.UserID = "root";
-            builder.Password = "root";
+            builder.Password = "prasanna@5912";
             builder.Database = "mydb";
 
             MySqlConnection connection = new MySqlConnection(builder.ToString());
-            connection.Open();
+            try { 
+                connection.Open();
 
-            String newStudent_mysql = "INSERT INTO parent (ParentId,Address,gender,`telephone number`) VALUES (@id, @address, @gender, @tp)";
-            MySqlCommand newStudent = new MySqlCommand(newStudent_mysql,connection);
-            newStudent.CommandText = newStudent_mysql;
-               //newStudent.Parameters.AddWithValue("@ParentId", 
-            newStudent.Parameters.AddWithValue("@id", parentId);
-            newStudent.Parameters.AddWithValue("@address", address);
-            newStudent.Parameters.AddWithValue("@gender", gender);
-            newStudent.Parameters.AddWithValue("@tp", telephoneNumber);
-            try
-            {
+                String newStudent_mysql = "INSERT INTO parent (ParentId,Address,gender,`telephone number`) VALUES (@id, @address, @gender, @tp)";
+                MySqlCommand newStudent = new MySqlCommand(newStudent_mysql, connection);
+                newStudent.CommandText = newStudent_mysql;
+
+                 
+                newStudent.Parameters.AddWithValue("@id", parentId);
+                newStudent.Parameters.AddWithValue("@address", address);
+                newStudent.Parameters.AddWithValue("@gender", gender);
+                newStudent.Parameters.AddWithValue("@tp", telephoneNumber);
+
                 newStudent.ExecuteNonQuery();
-              //  label6.Contains = "done";
-                label6.Text = "done";
                 connection.Close();
+                MessageBox.Show("Success");
             }
+
             catch (MySqlException ex)
             {
-               
-                label6.Text = "Fucked";
-            }
-            Console.Write("done");
-        }
+                MessageBox.Show(ex.Message);
 
+            }
+
+           
+        }
         private void label5_Click(object sender, EventArgs e)
         {
 

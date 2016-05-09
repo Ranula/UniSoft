@@ -28,3 +28,14 @@ C:\Users\Nadeeshan\Desktop\UniSoft(7)\UniSoft\bin\Debug\UniSoft.pdb
 C:\Users\Nadeeshan\Desktop\UniSoft(7)\UniSoft\bin\Debug\MySql.Data.dll
 C:\Users\Nadeeshan\Desktop\UniSoft(7)\UniSoft\obj\Debug\UniSoft.exe
 C:\Users\Nadeeshan\Desktop\UniSoft(7)\UniSoft\obj\Debug\UniSoft.pdb
+C:\Users\User\Desktop\Project\bin\Debug\UniSoft.exe.config
+C:\Users\User\Desktop\Project\obj\Debug\UniSoft.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Project\obj\Debug\UniSoft.Error.resources
+C:\Users\User\Desktop\Project\obj\Debug\UniSoft.AddParent.resources
+C:\Users\User\Desktop\Project\obj\Debug\UniSoft.Properties.Resources.resources
+C:\Users\User\Desktop\Project\obj\Debug\UniSoft.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Project\bin\Debug\UniSoft.exe
+C:\Users\User\Desktop\Project\bin\Debug\UniSoft.pdb
+C:\Users\User\Desktop\Project\bin\Debug\MySql.Data.dll
+C:\Users\User\Desktop\Project\obj\Debug\UniSoft.exe
+C:\Users\User\Desktop\Project\obj\Debug\UniSoft.pdb
