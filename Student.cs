@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UniSoft
 {
-    class student : Person
+    class Student : Person
 
     //
     {
@@ -17,7 +17,7 @@ namespace UniSoft
 
         //constuctor to add accept name and the age when creating the object
 
-        public student(string name, string gender, int age, string address, DateTime dateOfAddmission) : base(name, gender, age, address, dateOfAddmission)
+        public Student(string name, string gender, int age, string address, DateTime dateOfAddmission) : base(name, gender, age, address, dateOfAddmission)
         {
 
         }

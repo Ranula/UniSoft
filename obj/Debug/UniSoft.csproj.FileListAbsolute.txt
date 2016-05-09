@@ -18,3 +18,13 @@ C:\Users\User\Source\Repos\UniSoft\bin\Debug\UniSoft.exe.config
 C:\Users\Nadeeshan\Desktop\uniS\bin\Debug\UniSoft.exe.config
 C:\Users\Nadeeshan\Desktop\UniFuckers\UniSoft\bin\Debug\UniSoft.exe.config
 C:\Users\Nadeeshan\Desktop\unisoft\UniSoft\bin\Debug\UniSoft.exe.config
+C:\Users\Nadeeshan\Desktop\UniSoft(7)\UniSoft\bin\Debug\UniSoft.exe.config
+C:\Users\Nadeeshan\Desktop\UniSoft(7)\UniSoft\obj\Debug\UniSoft.csprojResolveAssemblyReference.cache
+C:\Users\Nadeeshan\Desktop\UniSoft(7)\UniSoft\obj\Debug\UniSoft.Form1.resources
+C:\Users\Nadeeshan\Desktop\UniSoft(7)\UniSoft\obj\Debug\UniSoft.Properties.Resources.resources
+C:\Users\Nadeeshan\Desktop\UniSoft(7)\UniSoft\obj\Debug\UniSoft.csproj.GenerateResource.Cache
+C:\Users\Nadeeshan\Desktop\UniSoft(7)\UniSoft\bin\Debug\UniSoft.exe
+C:\Users\Nadeeshan\Desktop\UniSoft(7)\UniSoft\bin\Debug\UniSoft.pdb
+C:\Users\Nadeeshan\Desktop\UniSoft(7)\UniSoft\bin\Debug\MySql.Data.dll
+C:\Users\Nadeeshan\Desktop\UniSoft(7)\UniSoft\obj\Debug\UniSoft.exe
+C:\Users\Nadeeshan\Desktop\UniSoft(7)\UniSoft\obj\Debug\UniSoft.pdb

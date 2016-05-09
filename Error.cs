@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace UniSoft
 {
-    public partial class Form1 : Form
+    public partial class Error : Form
     {
-        public Form1()
+        public Error()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
